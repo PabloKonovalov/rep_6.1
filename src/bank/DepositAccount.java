@@ -2,7 +2,9 @@ package bank;
 import java.util.Date;
 
 public class DepositAccount extends BankAccount {
-    Date lastDate;
+
+    private Date lastDate;
+
     public DepositAccount(){
         super();
     }
